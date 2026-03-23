@@ -1,0 +1,77 @@
+@import url("fonts/fonts.css");
+
+body{
+  background-color: #1E1E1E;
+  margin: 0;
+  padding: 0;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 5.5%;
+}
+.header__title{
+  color: #FFFFFF;
+  position: absolute;
+  width: 793px;
+  height: 156px;
+  left: 120px;
+  top: 89px;
+  font-family: 'Archivo Black';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 78px;
+}
+.header__subtitle{
+  color: #FFFFFF;
+  opacity: 0.5;
+  position: absolute;
+  width: 790px;
+  height: 25px;
+  left: 120px;
+  top: 260px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+.header__description{
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px;
+}
+.header__menu-links{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 115px;
+  height: 25px;
+  left: 120px;
+  top: 495px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.header__menu-link{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.header__menu-link:hover {
+  color: #6D6DFF;
+}
+.header__image {
+  position: absolute;
+  width: 387px;
+  height: 500px;
+  left: 933px;
+  top: 40px;
+  object-fit: cover; /* Para que la imagen se ajuste bien */
+}
